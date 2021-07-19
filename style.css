@@ -167,3 +167,21 @@ footer h2{
 .bg-water {
     background-image:url('/images/water-light.jpg');
 }
+
+/* Gridlex SM  */
+@media(max-width: 48em) {
+    .mob-hide { display: none; }
+
+    .mob-padded-t-0 { padding-top: 0; }
+
+    h1 { font-size: 6rem; }
+    h1 span { font-size: 2rem; }  
+    
+    footer a { font-size: 1rem;}
+}
+
+/* Custom Media Query XXS  */
+@media(max-width: 25em) {
+    h1 { font-size: 4.5rem; }
+    h1 span { font-size: 1.5rem; }  
+}
